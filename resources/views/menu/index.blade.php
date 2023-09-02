@@ -28,7 +28,7 @@
                                         <img src="{{ asset($item->thumbnail) }}" alt="{{ $item->name }}" width="60">
                                     </td>
                                     <td>{{ $item->title }}</td>
-                                    <td>{{ $item->category->name }}</td>
+                                    <td>{{ $item->category->name ?? 'No Category' }}</td>
                                     <td>${{ $item->price }}</td>
                                     <td><span class="badge {{ $item->status == 1 ? 'badge-primary':'badge-warning' }}">{{ $item->status == 1 ? 'Published':'Draft' }}</span></td>
                                     <td>

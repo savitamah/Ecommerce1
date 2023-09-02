@@ -16,7 +16,7 @@
                                             {{ $slider->sub_title }}
                                         </p>
                                         <div class="owl-slide-animated owl-slide-cta"><a class="btn_1 btn_scroll"
-                                        href="{{route('menu') }}" role="button">Check Our Menu</a></div>
+                                        href="{{route('menu') }}" role="button">Check Our Product</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -34,9 +34,9 @@
             <div class="row justify-content-center d-flex align-items-center">
                 <div class="col-lg-5 text-lg-center d-none d-lg-block" data-cue="slideInUp">
                     <figure>
-                        <img src="{{ asset('assets/frontend/img/home_1.jpg') }}" data-src="{{ asset('assets/frontend/img/home_1.jpg') }}" width="354" height="440"
+                        <img src="{{ asset('assets/frontend/img/shop.jpg') }}" data-src="{{ asset('assets/frontend/img/shop.jpg') }}" width="354" height="440"
                             alt="" class="img-fluid lazy">
-                        <a href="https://www.youtube.com/watch?v=MO7Hi_kBBBg" class="btn_play" data-cue="zoomIn"
+                        <a href="https://youtu.be/Yqcl5v371Ew?si=3wQpp9l65w3bZTbm" class="btn_play" data-cue="zoomIn"
                             data-delay="500"><span class="pulse_bt"><i class="arrow_triangle-right"></i></span></a>
                     </figure>
                 </div>
@@ -60,14 +60,14 @@
                 <a href="{{ route('menu') }}" class="img_container">
                     <img src="{{ asset('assets/frontend/img/banner_1.jpg') }}" class="lazy">
                     <div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
-                        <h3>Our Menu</h3>
-                        <p>View Our Specialites</p>
+                        <h3>Our </h3>
+                        <p>View Our product</p>
                     </div>
                 </a>
             </div>
             <div class="col-xl-4">
                 <a href="menu.html" class="img_container">
-                    <img src="{{ asset('assets/frontend/img/banner_3.jpg') }}" class="lazy">
+                    <img src="{{ asset('assets/frontend/img/banner_2.jpg') }}" class="lazy">
                     <div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
                         <h3>Our Blogs</h3>
                         <p>Checkout our latest blogs</p>
@@ -76,7 +76,7 @@
             </div>
             <div class="col-xl-4">
                 <a href="menu.html" class="img_container">
-                    <img src="{{ asset('assets/frontend/img/banner_4.jpg') }}" class="lazy">
+                    <img src="{{ asset('assets/frontend/img/banner_3.jpg') }}" class="lazy">
                     <div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
                         <h3>Say Something?</h3>
                         <p>Send us a message</p>
@@ -118,7 +118,7 @@
         <div class="container margin_120_100" data-cue="slideInUp">
             <div class="main_title center mb-5">
                 <span><em></em></span>
-                <h2>Our Menu</h2>
+                <h2>Our Products</h2>
             </div>
             <div class="row homepage add_bottom_25">
                 <div class="col-xl-8">

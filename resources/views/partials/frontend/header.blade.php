@@ -25,12 +25,12 @@
         </ul>
         <!-- /top_menu -->
         <a href="#" class="open_close">
-            <i class="icon_menu"></i><span>Menu</span>
+            <i class="icon_menu"></i><span>Product</span>
         </a>
         <nav class="main-menu">
             <div id="header_menu">
                 <a href="#0" class="open_close">
-                    <i class="icon_close"></i><span>Menu</span>
+                    <i class="icon_close"></i><span>Product</span>
                 </a>
                 <a href="index.html"><img src="img/logo.svg" width="140" height="35" alt=""></a>
             </div>
@@ -42,7 +42,7 @@
                     <a href="#about" class="show-submenu">About Us</a>
                 </li>
                 <li class="submenu">
-                    <a href="{{ route('menu') }}" class="show-submenu">Food Menu</a>
+                    <a href="{{ route('menu') }}" class="show-submenu">product</a>
                 </li>
                 <li class="submenu">
                     <a href="#" class="show-submenu">Gallery</a>
