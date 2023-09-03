@@ -2,8 +2,8 @@
 @section('title', 'Menu')
 @section('breadcrumb')
     <div class="col-xl-9 col-lg-10 col-md-8">
-        <h1>Menu</h1>
-        <p>Cooking delicious and tasty food since</p>
+        <h1>Order Now</h1>
+        <p>Transforming clicks into customers.</p>
     </div>
 @endsection
 @section('content')
@@ -11,8 +11,8 @@
         <div class="container margin_60_40" data-cues="slideInUp">
             <div class="main_title center">
                 <span><em></em></span>
-                <h2>Starters</h2>
-                <p> Starter dishes, often referred to as appetizers or entrees in some regions, are small portions of food served before the main course.</p>
+                <h2>Order yours today!</h2>
+                <p>"Online marketing, optimized and actualized."</p>
             </div>
 
             <div class="row justify-content-center mb-5">
@@ -23,8 +23,8 @@
                             <div class="item-img magnific-gallery" data-cue="slideInUp">
                                 <img src="{{ $item->thumbnail }}" alt="menu item">
                                 <div class="content">
-                                    <a href="{{ $item->thumbnail }}" title="Chicken with Garlic"
-                                        data-effect="mfp-zoom-in"><i class="fas fa-plus"></i></a>
+                                    <a href="{{ $item->thumbnail }}" title="product"
+                                      data-effect="mfp-zoom-in"><i class="fas fa-plus"></i></a>
                                 </div>
                             </div>
                             <h3>{{ $item->title }}</h3>
@@ -46,8 +46,8 @@
 
             <div class="main_title center" data-cue="slideInUp">
                 <span><em></em></span>
-                <h2>All Dishes</h2>
-                <p>all dishes worldwide, as there are countless dishes with diverse ingredients, preparation methods, and cultural significances</p>
+                <h2>All Products </h2>
+                <p>Empowering brands with digital brilliance</p>
             </div>
             <div class="row justify-content-center mb-3">
                 @if (!empty($menus))
@@ -57,8 +57,9 @@
                             <div class="item-img magnific-gallery" data-cue="slideInUp">
                                 <img src="{{ $item->thumbnail }}" alt="menu item">
                                 <div class="content">
-                                    <a href="{{ $item->thumbnail }}" title="Chicken with Garlic"
-                                        data-effect="mfp-zoom-in"><i class="fas fa-plus"></i></a>
+                                    <a href="{{ $item->thumbnail }}" title="products"
+                                        data-effect="mfp-zoom-in"><i class="fas fa-plus"></i>
+                                    </a>
                                 </div>
                             </div>
                             <h3>{{ $item->title }}</h3>

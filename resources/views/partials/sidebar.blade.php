@@ -1,7 +1,7 @@
 <div class="main-sidebar sidebar-style-2">
   <aside id="sidebar-wrapper">
       <div class="sidebar-brand">
-          <a href="index.html">Restaurant</a>
+          <a href="index.html">Online Market Place</a>
       </div>
       <div class="sidebar-brand sidebar-brand-sm">
           <a href="index.html">St</a>
@@ -11,7 +11,7 @@
           <li class="">
               <a href=""><i class="fas fa-fire"></i><span>Dashboard</span></a>
           </li>
-          <li class="menu-header">Starter</li>
+          <li class="menu-header">Products</li>
           <li class="dropdown {{ request()->routeIs('category.*') ? 'active':'' }}">
               <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i>
                   <span>Category</span></a>

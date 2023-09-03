@@ -60,14 +60,14 @@
                 <a href="{{ route('menu') }}" class="img_container">
                     <img src="{{ asset('assets/frontend/img/banner_1.jpg') }}" class="lazy">
                     <div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
-                        <h3>Our </h3>
+                        <h3>Our Prdoucts </h3>
                         <p>View Our product</p>
                     </div>
                 </a>
             </div>
             <div class="col-xl-4">
                 <a href="menu.html" class="img_container">
-                    <img src="{{ asset('assets/frontend/img/banner_2.jpg') }}" class="lazy">
+                    <img src="{{ asset('assets/frontend/img/blog-1.jpg') }}" class="lazy">
                     <div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
                         <h3>Our Blogs</h3>
                         <p>Checkout our latest blogs</p>
@@ -85,25 +85,25 @@
             </div>
             <div class="col-xl-4">
                 <a href="menu.html" class="img_container">
-                    <img src="{{ asset('assets/frontend/img/banner_6.jpg') }}" class="lazy">
+                    <img src="{{ asset('assets/frontend/img/offer-2.jpg') }}" class="lazy">
                     <div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
                         <h3>Photo Gallery</h3>
-                        <p>See photos from our latest event</p>
+                        <p>See photos from our latest trends</p>
                     </div>
                 </a>
             </div>
             <div class="col-xl-4">
                 <a href="menu.html" class="img_container">
-                    <img src="{{ asset('assets/frontend/img/banner_5.jpg') }}" class="lazy">
+                    <img src="{{ asset('assets/frontend/img/womens-banner.jpg') }}" class="lazy">
                     <div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
-                        <h3>BOOK A TABLE</h3>
-                        <p>Reserve a table for you</p>
+                        <h3>New Offer Sale</h3>
+                        <p>20% Discount Available!</p>
                     </div>
                 </a>
             </div>
             <div class="col-xl-4">
                 <a href="menu.html" class="img_container">
-                    <img src="{{ asset('assets/frontend/img/banner_6.jpg') }}" class="lazy">
+                    <img src="{{ asset('assets/frontend/img/blog-3.jpg') }}" class="lazy">
                     <div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
                         <h3>Video Gallery</h3>
                         <p>See videos from our latest event</p>

@@ -57,7 +57,7 @@
 
   <main>
 	 @if (!Route::is('home'))
-		<div class="hero_single inner_pages background-image mb-4" data-background="url({{ asset('assets/frontend/img/hero_general.jpg') }})">
+		<div class="hero_single inner_pages background-image mb-4" data-background="url({{ asset('assets/frontend/img/banner.jpg') }})">
 			<div class="opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.6)">
 				<div class="container">
 					<div class="row justify-content-center">
@@ -72,9 +72,9 @@
    @yield('content')
     </main>
 
-	{{-- Header start --}}
+	{{--footer start --}}
   @include('partials.frontend.footer')
-	{{-- Header end --}}
+	{{-- footer end --}}
 
 	<div id="toTop"></div>
 
@@ -98,20 +98,20 @@
 								<input class="form-control" type="email" placeholder="Enter Your Email" id="email"
 									name="email">
 								@error('email')
-                  <span class="invalid-feedback" role="alert">
-                    <strong>{{ $message }}</strong>
-                  </span>
-                @enderror
+                                  <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                 </span>
+                               @enderror
 							</div>
 							<div class="form-group mb-5">
 								<label for="password">Password</label>
 								<input class="form-control" type="password" placeholder="Enter Your Password" id="password"
 									name="password">
-								@error('password')
-                  <span class="invalid-feedback" role="alert">
-                      <strong>{{ $message }}</strong>
-                  </span>
-                @enderror
+							   @error('password')
+                               <span class="invalid-feedback" role="alert">
+                               <strong>{{ $message }}</strong>
+                              </span>
+                              @enderror
 							</div>
 							<div class="form-group mb-2">
 								<input class="btn_1 full-width" type="submit" value="LogIn" id="submit-contact">
@@ -133,7 +133,7 @@
 				</div>
 				<div class="modal-body pt-0">
 					<div class="col-12">
-						<div class="main_title text-center">
+					  <div class="main_title text-center">
 							<h2>Sign Up</h2>
 						</div>
 						<form method="POST" action="{{ route('register') }}">
@@ -143,30 +143,32 @@
 								<input class="form-control" type="text" placeholder="Enter Your Name" id="name"
 									name="name">
 								@error('name')
-                 <span class="invalid-feedback" role="alert">
-                    <strong>{{ $message }}</strong>
-                 </span>
-                @enderror
+                             <span class="invalid-feedback" role="alert">
+                               <strong>{{ $message }}</strong>
+                             </span>
+                            @enderror
 							</div>
 							<div class="form-group mb-3">
 								<label for="email">Email</label>
 								<input class="form-control" type="email" placeholder="Enter Your Email" id="email"
 									name="email">
 								@error('email')
-                <span class="invalid-feedback" role="alert">
-                   <strong>{{ $message }}</strong>
-                </span>
-                @enderror
+                               <span class="invalid-feedback" role="alert">
+                               <strong>{{ $message }}</strong>
+                               </span>
+                                @enderror
 							</div>
 							<div class="form-group mb-3">
-								 <label for="password">Password</label>
-								 <input class="form-control" type="password" placeholder="Enter Your Password" id="password"
+								<label for="password">
+									Password
+								</label>
+								<input class="form-control" type="password" placeholder="Enter Your Password" id="password"
 									name="password">
-								  @error('password')
-                  <span class="invalid-feedback" role="alert">
-                   <strong>{{ $message }}</strong>
-                 </span>
-                @enderror
+							    @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                     <strong>{{ $message }}</strong>
+                                  </span>
+                                @enderror
 							</div>
 							<div class="form-group mb-5">
 								<label for="password_confirmation">Confirm Password</label>

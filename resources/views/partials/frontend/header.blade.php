@@ -3,8 +3,8 @@
     <div class="container-fluid">
         <div id="logo">
            <a href="index.html">
-                <img src="{{asset('assets/frontend/img/logo_1.png')}}" width="140" height="35" alt="" class="logo_normal">
-                <img src="{{asset('assets/frontend/img/logo_2.png')}}" width="140" height="35" alt="" class="logo_sticky">
+                <img src="{{asset('assets/frontend/img/logo.jpg')}}" width="140" height="35" alt="" class="logo_normal">
+                <img src="{{asset('assets/frontend/img/logo.jpg')}}" width="140" height="35" alt="" class="logo_sticky">
             </a>
         </div>
         <ul id="top_menu">

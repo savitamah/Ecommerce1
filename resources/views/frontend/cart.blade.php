@@ -4,7 +4,7 @@
 @section('breadcrumb')
     <div class="col-xl-9 col-lg-10 col-md-8">
         <h1>Order</h1>
-        <p>Cooking delicious and tasty food since</p>
+        <p>Online presence, amplified</p>
     </div>
 @endsection
 @section('content')
@@ -58,7 +58,7 @@
                                         <strong>$<span>{{ $cart->menu->price * $cart->quantity }}</span></strong>
                                     </td>
                                     <td class="options">
-                                            <a href="{{ route('cart.delete', [$cart->id, auth()->user()->id]) }}" class="btn btn-link text-danger" type="submit"><i class="fas fa-trash"></i></a>
+                                        <a href="{{ route('cart.delete', [$cart->id, auth()->user()->id]) }}" class="btn btn-link text-danger" type="submit"><i class="fas fa-trash"></i></a>
                                     </td>
                                 </tr>
                             @endforeach
